@@ -12,12 +12,12 @@
             "email": "a4fteam@mail.ru"
         }
     ],
-    
+    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {
             "a4fteam\\admpanel\\": ""
         }
     }
-    "minimum-stability": "stable",
+    
 }
