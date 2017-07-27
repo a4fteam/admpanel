@@ -1,8 +1,10 @@
 {
     "name": "a4fteam/admpanel",
-    "description": "a pdckages admin panel",
+    "description": "packages admin panel",
     "license": "MIT",
     "version":"1.0.0",
+    "type": "laravel",
+    "keywords": ["laravel", "admin", "panel"],
     
     "authors": [
         {
@@ -10,11 +12,12 @@
             "email": "a4fteam@mail.ru"
         }
     ],
-    "minimum-stability": "dev",
+    
     "require": {},
     "autoload": {
         "psr-4": {
             "a4fteam\\admpanel\\": ""
         }
     }
+    "minimum-stability": "stable"
 }
