@@ -12,11 +12,19 @@
             "email": "a4fteam@mail.ru"
         }
     ],
-    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {
-            "a4fteam\\admpanel\\": ""
+            "A4fteam\\Admpanel\\": "src"
+        }
+    }
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "A4fteam\\Admpanel\\AdmPanelProvider"
+            ]
         }
     }
     
