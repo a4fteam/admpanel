@@ -2,7 +2,7 @@
 
 
 
-Route::group(array('namespace' => 'A4fteam\Admpanel\Src\Http\Controllers', 'middleware' => ['web']), function() {
+Route::group(array('namespace' => 'A4fteam\Admpanel\Http\Controllers', 'middleware' => ['web']), function() {
 
     /*Клиентские маршруты*/
 

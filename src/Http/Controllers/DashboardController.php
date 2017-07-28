@@ -1,10 +1,10 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Controllers;
+namespace A4fteam\Admpanel\Http\Controllers;
 
-use A4fteam\Admpanel\Src\Http\Controllers\Controller;
-use A4fteam\Admpanel\Src\Http\Models\Posts;
-use A4fteam\Admpanel\Src\Http\Models\User;
+use A4fteam\Admpanel\Http\Controllers\Controller;
+use A4fteam\Admpanel\Http\Models\Posts;
+use A4fteam\Admpanel\Http\Models\User;
 use Title;
 
 class DashboardController extends Controller

@@ -1,9 +1,9 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Controllers;
+namespace A4fteam\Admpanel\Http\Controllers;
 
 use Illuminate\Http\Request;
-use A4fteam\Admpanel\Src\Http\Models\Slider;
+use A4fteam\Admpanel\Http\Models\Slider;
 
 class SliderController extends Controller
 {

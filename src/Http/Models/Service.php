@@ -1,6 +1,6 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Models;
+namespace A4fteam\Admpanel\Http\Models;
 
 class Service extends Model
 {
@@ -11,6 +11,6 @@ class Service extends Model
     ];
    public function category()
     {
-    	return $this->belongsTo('A4f\Admpanel\Src\Http\Models\ServiceCategory');
+    	return $this->belongsTo('A4f\Admpanel\Http\Models\ServiceCategory');
     }
 }

@@ -1,10 +1,10 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Controllers;
+namespace A4fteam\Admpanel\Http\Controllers;
 
-use A4fteam\Admpanel\Src\Http\Controllers\Controller;
-use A4fteam\Admpanel\Src\Http\Models\PostTag;
-use A4fteam\Admpanel\Src\Http\Models\Tags;
+use A4fteam\Admpanel\Http\Controllers\Controller;
+use A4fteam\Admpanel\Http\Models\PostTag;
+use A4fteam\Admpanel\Http\Models\Tags;
 use Notifications;
 use Title;
 

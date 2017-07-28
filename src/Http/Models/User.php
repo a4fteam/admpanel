@@ -1,6 +1,6 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Models;
+namespace A4fteam\Admpanel\Http\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;

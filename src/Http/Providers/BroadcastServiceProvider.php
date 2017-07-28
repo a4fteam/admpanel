@@ -1,6 +1,6 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Providers;
+namespace A4fteam\Admpanel\Http\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

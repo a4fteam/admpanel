@@ -1,6 +1,6 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Models;
+namespace A4fteam\Admpanel\Http\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;

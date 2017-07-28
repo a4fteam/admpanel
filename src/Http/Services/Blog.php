@@ -1,9 +1,9 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Services;
+namespace A4fteam\Admpanel\Http\Services;
 
-use A4fteam\Admpanel\Src\Http\Models\Posts;
-use A4fteam\Admpanel\Src\Http\Models\Tags;
+use A4fteam\Admpanel\Http\Models\Posts;
+use A4fteam\Admpanel\Http\Models\Tags;
 
 class Blog
 {

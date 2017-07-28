@@ -1,6 +1,6 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Controllers;
+namespace A4fteam\Admpanel\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
@@ -14,8 +14,8 @@ use App\Database\Schema\SchemaManager;
 use App\Database\Schema\Table;
 use App\Database\Types\Type;
 use App\Facades\Voyager;
-use A4fteam\Admpanel\Src\Http\Models\DataType;
-use A4fteam\Admpanel\Src\Http\Models\Permission;
+use A4fteam\Admpanel\Http\Models\DataType;
+use A4fteam\Admpanel\Http\Models\Permission;
 
 class VoyagerDatabaseController extends Controller
 {

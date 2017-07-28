@@ -1,10 +1,10 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Controllers;
+namespace A4fteam\Admpanel\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use A4fteam\Admpanel\Src\Http\Models\User;
+use A4fteam\Admpanel\Http\Models\User;
 use DB;
 
 class ProfileController extends Controller

@@ -1,9 +1,9 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\ViewComposers;
+namespace A4fteam\Admpanel\Http\ViewComposers;
 
 use Illuminate\Contracts\View\View;
-use A4fteam\Admpanel\Src\Http\Models\Menu;
+use A4fteam\Admpanel\Http\Models\Menu;
 
 class TopNavComposer
 {

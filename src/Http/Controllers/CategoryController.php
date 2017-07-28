@@ -1,7 +1,7 @@
 <?php
-namespace A4fteam\Admpanel\Src\Http\Controllers;
+namespace A4fteam\Admpanel\Http\Controllers;
 
-use A4fteam\Admpanel\Src\Http\Models\ServiceCategory;
+use A4fteam\Admpanel\Http\Models\ServiceCategory;
 use Illuminate\Http\Request;
 use Notifications;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Jobs;
+namespace A4fteam\Admpanel\Http\Jobs;
 
-use A4fteam\Admpanel\Src\Http\Models\Posts;
+use A4fteam\Admpanel\Http\Models\Posts;
 use Conf;
 //use Illuminate\Contracts\Bus\SelfHandling;
 use Illuminate\Contracts\Queue\ShouldQueue;

@@ -1,9 +1,9 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Controllers;
+namespace A4fteam\Admpanel\Http\Controllers;
 
-use A4fteam\Admpanel\Src\Http\Models\Page;
-use A4fteam\Admpanel\Src\Http\Models\Slider;
+use A4fteam\Admpanel\Http\Models\Page;
+use A4fteam\Admpanel\Http\Models\Slider;
 use Conf;
 use Illuminate\Http\Request;
 use DB;

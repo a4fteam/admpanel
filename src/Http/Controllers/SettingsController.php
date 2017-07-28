@@ -1,9 +1,9 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Controllers;
+namespace A4fteam\Admpanel\Http\Controllers;
 
-use A4fteam\Admpanel\Src\Http\Jobs\CreateSitemap;
-use A4fteam\Admpanel\Src\Http\Controllers\Controller;
+use A4fteam\Admpanel\Http\Jobs\CreateSitemap;
+use A4fteam\Admpanel\Http\Controllers\Controller;
 use Conf;
 use Illuminate\Http\Request;
 use Notifications;

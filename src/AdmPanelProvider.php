@@ -1,10 +1,10 @@
 <?php
 
-namespace A4fteam\Admpanel\Src;
+namespace A4fteam\Admpanel;
 
 use Illuminate\Support\ServiceProvider;
 use View;
-use A4fteam\Admpanel\Src\Http\ViewComposers\TopNavComposer;
+use A4fteam\Admpanel\Http\ViewComposers\TopNavComposer;
 
 class AdmPanelProvider extends ServiceProvider
 {

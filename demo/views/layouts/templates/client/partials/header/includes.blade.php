@@ -1,1 +1,0 @@
-@yield('header_includes')

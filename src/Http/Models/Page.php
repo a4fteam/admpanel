@@ -1,6 +1,6 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Models;
+namespace A4fteam\Admpanel\Http\Models;
 
 class Page extends Model
 {
@@ -11,6 +11,6 @@ class Page extends Model
     ];
    public function menu()
     {
-    	return $this->belongsTo('A4f\Admpanel\Src\Http\Models\Menu');
+    	return $this->belongsTo('A4f\Admpanel\Http\Models\Menu');
     }
 }

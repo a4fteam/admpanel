@@ -1,6 +1,6 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Models;
+namespace A4fteam\Admpanel\Http\Models;
 use Cviebrock\EloquentSluggable\Sluggable;
 
 class ServiceCategory extends Model
@@ -24,7 +24,7 @@ class ServiceCategory extends Model
     ];
    public function service()
     {
-    	return $this->hasMany('A4f\Admpanel\Src\Http\Models\Service');
+    	return $this->hasMany('A4f\Admpanel\Http\Models\Service');
     }
     
      public static function i()

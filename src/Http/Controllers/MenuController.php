@@ -1,11 +1,11 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Controllers;
+namespace A4fteam\Admpanel\Http\Controllers;
 
-use A4fteam\Admpanel\Src\Http\Controllers\Controller;
-use A4fteam\Admpanel\Src\Http\Requests;
-use A4fteam\Admpanel\Src\Http\Models\Menu;
-use A4fteam\Admpanel\Src\Http\Models\Page;
+use A4fteam\Admpanel\Http\Controllers\Controller;
+use A4fteam\Admpanel\Http\Requests;
+use A4fteam\Admpanel\Http\Models\Menu;
+use A4fteam\Admpanel\Http\Models\Page;
 use Notifications;
 use Redirect;
 use Title;

@@ -1,6 +1,6 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Requests;
+namespace A4fteam\Admpanel\Http\Requests;
 
 use Illuminate\Contracts\Validation\Validator;
 use Notifications;

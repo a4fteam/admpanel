@@ -1,6 +1,6 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Jobs;
+namespace A4fteam\Admpanel\Http\Jobs;
 
 use Illuminate\Bus\Queueable;
 

@@ -1,14 +1,14 @@
 <?php
 
-namespace A4fteam\Admpanel\Src\Http\Controllers;
+namespace A4fteam\Admpanel\Http\Controllers;
 
-use A4fteam\Admpanel\Src\Http\Controllers\Controller;
-use A4fteam\Admpanel\Src\Http\Requests;
-use A4fteam\Admpanel\Src\Http\Models\ServiceCategory;
-use A4fteam\Admpanel\Src\Http\Models\Posts;
-use A4fteam\Admpanel\Src\Http\Models\PostTag;
-use A4fteam\Admpanel\Src\Http\Models\Tags;
-use A4fteam\Admpanel\Src\Http\Models\Page;
+use A4fteam\Admpanel\Http\Controllers\Controller;
+use A4fteam\Admpanel\Http\Requests;
+use A4fteam\Admpanel\Http\Models\ServiceCategory;
+use A4fteam\Admpanel\Http\Models\Posts;
+use A4fteam\Admpanel\Http\Models\PostTag;
+use A4fteam\Admpanel\Http\Models\Tags;
+use A4fteam\Admpanel\Http\Models\Page;
 use Notifications;
 use Pinger;
 use Redirect;
