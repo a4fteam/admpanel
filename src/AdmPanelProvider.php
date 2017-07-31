@@ -27,7 +27,7 @@ class AdmPanelProvider extends ServiceProvider
         $this->publishes([__DIR__ . '/../public/' => public_path() . "/vendor/admpanel/"], 'assets');
         $this->publishes([__DIR__ . '/../database/' => base_path("database")], 'database');
         
-        include app_path('helpers.php');
+        //include app_path('helpers.php');
         
         View()->composer('admpanel::layouts.templates.client.partials.navigation', TopNavComposer::class);
         
