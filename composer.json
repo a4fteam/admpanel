@@ -12,7 +12,13 @@
             "email": "a4fteam@mail.ru"
         }
     ],
-    "require": {},
+    "require": {
+        "cviebrock/eloquent-sluggable": "^4.2",
+        "gaaarfild/laravel-conf": "1.*",
+        "garf/laravel-notifications": "2.*",
+        "garf/laravel-title": "2.*",
+        "jenssegers/date": "^3.2" 
+    },
     "autoload": {
         "psr-4": {
             "A4fteam\\Admpanel\\": "src"
