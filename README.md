@@ -21,6 +21,7 @@
 		1.2.1 в командной строке composer require a4fteam/admpanel 
 	
 2.Добавить в config/app.php
+
     'providers' => [
         A4fteam\Admpanel\AdmPanelProvider::class,
         //https://github.com/gaaarfild/laravel-title
