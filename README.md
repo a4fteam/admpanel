@@ -42,8 +42,10 @@
         'Notifications' => Garf\LaravelNotifications\NotificationsFacade::class,
         'Date' => Jenssegers\Date\Date::class,
 
-3.php artisan vendor:publish --provider="A4fteam\Admpanel\AdmPanelProvider" -опубликование 
+3.Публикация
+
+	php artisan vendor:publish --provider="A4fteam\Admpanel\AdmPanelProvider" -опубликование 
 	3.1 php artisan migrate(установка миграций) затем php artisan db:seed(установка первичных значений)
 
-login - test@mail.ru
-password - 013666 
+	login - test@mail.ru
+	password - 013666 
